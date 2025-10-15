@@ -1,14 +1,14 @@
 <template>
   <div>
     <div class="controls">
-      <button class="btn" @click="loadCats">
+      <button class="btn" style="margin-right: 35px" @click="loadCats">
         Refresh Images
       </button>
     </div>
     <template v-if="error">
-      <div class="message">
+      <div class="message" >
         {{ error }}
-        <button class="btn secondary" @click="loadCats">Try again</button>
+        <button class="btn secondary"  @click="loadCats">Try again</button>
       </div>
     </template>
     <template v-else-if="cats.length">

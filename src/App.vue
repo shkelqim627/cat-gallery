@@ -14,7 +14,18 @@
         <a href="https://www.linkedin.com/in/shkelqim-osmani-8206b5227/" target="_blank" rel="noopener">
           Shkelqim Osmani
         </a>
+        &copy; 2025
+        <a
+            href="https://github.com/shkelqim627/cat-gallery"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub Repository"
+            style="margin-left: 10px;"
+        >
+          <font-awesome-icon :icon="['fab', 'github']" size="xl" />
+        </a>
       </small>
+
     </footer>
   </div>
 </template>
